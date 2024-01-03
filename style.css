@@ -1,0 +1,167 @@
+* {
+    font-family: Work Sans;
+}
+
+
+nav>ul>li {
+
+    list-style: none;
+    display: inline;
+    margin: 20px 20px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav li>a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+nav ul li>a:hover {
+    color: black;
+    background-color: rgb(50, 116, 204);
+    color: white;
+
+}
+
+nav {
+    text-align: right;
+    padding-right: 100px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+    margin-top: auto;
+}
+table th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Black {
+    background-image: url('images/Ellipse\ 2.png');
+    background-size: 373px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.hero-title {
+    font-size: 65px;
+}
+
+.hero-description {
+    font-size: 16px;
+}
+
+.button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: #F15B22;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+
+#hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    height: 650px;
+    background-image: url("images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#hero-left {
+    width: 50%;
+    text-align: left;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.nigger {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nigger-content {
+    width: 50%;
+    margin: 50px 40px;
+    justify-content: space-around
+    
+    ;
+}
+
+.nigger-image {
+    width: 50%;
+}
+
+div li {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.my-plans {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 200px;
+    
+}
+
+
+
+
+.mp-title {
+    text-align: center;
+}
+
+.button2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #F15B22;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.ending {
+
+    background-image: url(images/gradient2.png);
+    background-size: cover;
+    padding: 50px 100px;
+    margin: 50px 0px;
+}
+
+.ending-parent {
+    background-image: url(images/watch.png);
+    background-size: cover;
+    margin: 50px 100px;
+}
+section{
+    margin-bottom: 100px;
+}
+.ending-parent h2{
+color: #ffffff;
+}

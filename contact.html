@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <Nav>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </Nav>
+    </header>
+    <main>
+        <p>repellendus? Eum quod consequuntur exercitationem eos, harum architecto animi beatae possimus alias
+            voluptates tempore dignissimo</p>
+        <section>
+            <h3>There is a form below. Please fill up the form with your Information</h3>
+            <form>
+                <label for="Name">
+                    Name <input type="Name" id="Name" placeholder="Name">
+                </label>
+                <label for="Email">
+                    Email <input type="Email" placeholder="Email" id="Email">
+                </label>
+                <label for="Phone">
+                    Phone <input type="tel" id="Phone" placeholder="Phone">
+                </label>
+                <label for="Address">
+                    Address <input type="Address" placeholder="Address" id="Address">
+                </label>
+                <fieldset id="Gender">
+                    <legend>Gender</legend>
+                    <label for="male">
+                        Male <input type="radio" id="male" name="Gender">
+                    </label>
+                    <label for="Female">
+                        Female <input type="radio" name="gender" id="Female">
+                    </label>
+                </fieldset>
+                <fieldset id="Coding">
+                    <legend>What do you want to learn</legend>
+                    <label for="HTML">HTML <input type="checkbox" id="HTML" name="Coding"></label>
+                    <label for="CSS">CSS <input type="checkbox" id="CSS" name="Coding"></label>
+                    <label for="Javascript">Javascript <input type="checkbox" id="checkbox" name="Coding"></label>
+                </fieldset>
+                <textarea name="textbox" id="textbox" style="display: block;" cols="50" rows="10">Write about yourself</textarea>
+                <input type="reset" value="Reset">
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+    <Footer>
+        <p><small> &copy; 2023 All rights reserved</small></p>
+    </Footer>
+
+</body>
+
+</html>
